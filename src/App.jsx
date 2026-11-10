@@ -9,12 +9,14 @@ import MyRequestsPage from "./pages/MyRequestsPage"
 import RequestDetailsPage from "./pages/RequestDetailsPage"
 import AllRequestsPage from "./pages/AllRequestsPage"
 import NotFoundPage from "./pages/NotFoundPage"
+import Navigation from "./components/Navigation"
 
 
 function App() {
 
     return (
         <>
+            <Navigation />
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/catalog" element={<CatalogPage />} />

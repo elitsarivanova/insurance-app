@@ -6,3 +6,4 @@
  - [x] Add application page components
  - [x] Install React Router
  - [x] Setup React Router configuration
+ - [x] Add application navigation
