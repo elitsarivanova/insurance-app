@@ -7,3 +7,4 @@
  - [x] Install React Router
  - [x] Setup React Router configuration
  - [x] Add application navigation
+ - [x] Create application layout

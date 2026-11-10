@@ -10,12 +10,15 @@ import RequestDetailsPage from "./pages/RequestDetailsPage"
 import AllRequestsPage from "./pages/AllRequestsPage"
 import NotFoundPage from "./pages/NotFoundPage"
 import Navigation from "./components/Navigation"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 
 function App() {
 
     return (
         <>
+            <Header />
             <Navigation />
             <Routes>
                 <Route path="/" element={<HomePage />} />
@@ -29,6 +32,7 @@ function App() {
                 <Route path="/requests/all" element={<AllRequestsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
+            <Footer />
         </>
     )
 }
